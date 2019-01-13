@@ -17,7 +17,10 @@ def disemvowel(str)
   str.delete('aeiouAEIOU')
 end
 
+ #logic
+  #deleteメソッドは、配列から引数objと同じ要素を探して、すべて削除。
 
+  
 # Test Cases:
 Test.assert_equals(disemvowel("This website is for losers LOL!"),
   "Ths wbst s fr lsrs LL!")
